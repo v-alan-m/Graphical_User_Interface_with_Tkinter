@@ -1,1 +1,1 @@
-# Graphical User Interfaces with Tkinter
+# Graphical User Interface with Tkinter
