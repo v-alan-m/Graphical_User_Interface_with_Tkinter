@@ -7,7 +7,8 @@ window = Tk()
 # The function will run on pressing pressing the button
 def km_to_miles():
     miles_conv = float(d1_value.get()) * 1.6
-    t1.insert(END, miles_conv)  
+    t1.delete("1.0", END) 
+    t1.insert(END, miles_conv)
 
 # Generate a button widget
 # The 'button' will be assigned to 'window'
